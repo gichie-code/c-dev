@@ -1,0 +1,7 @@
+services:
+  c-dev:
+    build: .
+    volumes:
+      - ./src:/workspace
+    working_dir: /workspace
+    tty: true
