@@ -25,6 +25,7 @@ docker compose run --rm c-dev gcc main.c -o main && ./main
 
 ## Directory Structure
 
+```
 c-dev/  
 ├── Dockerfile  
 ├── docker-compose.yml  
@@ -32,6 +33,7 @@ c-dev/
 ├── .gitignore  
 └── src/  
     └── main.c
+```
 
 ## License
 
