@@ -19,7 +19,8 @@ docker compose build
 ### Compile and run
 
 ```bash
-docker compose run --rm c-dev gcc src/main.c -o main && ./main
+cd src
+docker compose run --rm c-dev gcc main.c -o main && ./main
 ```
 
 ## Directory Structure
