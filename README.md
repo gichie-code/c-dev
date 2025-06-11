@@ -26,12 +26,12 @@ docker compose run --rm c-dev sh -c "gcc main.c -o main && ./main"
 ## Directory Structure
 
 ```
-c-dev/  
-├── Dockerfile  
-├── docker-compose.yml  
-├── .dockerignore  
-├── .gitignore  
-└── src/  
+c-dev/
+├── Dockerfile
+├── docker-compose.yml
+├── .dockerignore
+├── .gitignore
+└── src/
     └── main.c
 ```
 
