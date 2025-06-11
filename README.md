@@ -20,7 +20,7 @@ docker compose build
 
 ```bash
 cd src
-docker compose run --rm c-dev gcc main.c -o main && ./main
+docker compose run --rm c-dev sh -c "gcc main.c -o main && ./main"
 ```
 
 ## Directory Structure
